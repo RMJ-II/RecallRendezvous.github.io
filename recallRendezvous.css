@@ -1,0 +1,45 @@
+.PlayButton {
+    border-style: outset;
+    height: 100px;
+    width: 400px;
+    margin-top: 5px;
+    font-size: 250%;
+    border-width: 10px;
+    border-color: white;
+    background-color: rgb(255, 183, 50);
+    font-weight: 535;
+    font-family: 'Brush Script MT', Cursive;
+    color: black;
+}
+
+.title {
+    font-weight: 1000;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Brush Script MT', Cursive;
+    text-shadow: 5px 5px orange; 
+    margin-bottom: 100px;
+}
+
+body {
+    background-image: url('backGroundImage.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#againDiv {
+    margin-top: 10%;
+}
+
+#enterName {
+    width:375px;
+    height:85px;
+    border-width: 10px;
+    border-color: white;
+    background-color: rgb(255, 183, 50);;
+    font-weight: 535;
+    font-family: 'Brush Script MT', Cursive;
+    color: black;
+    font-size: 250%;
+    text-align:center;
+}

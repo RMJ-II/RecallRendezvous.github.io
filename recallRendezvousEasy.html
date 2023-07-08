@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recall Rendezvous</title>
+    <link rel="stylesheet" href="./recallRendezvousMedium.css" />
+</head>
+<body>
+    <audio id="insuranceOfTheShin">
+        <source src="Blob-Monsters-Return.wav" type="audio/wav">
+    </audio>
+    <div align=center>
+        <h1 class="title2">Difficulty: Easy</h1>
+        <h2>
+            <span id="cardsFlippedCount">Cards Flipped: <span id = "cardsFlipped">0</span>/2</span>
+            <span id="StopWatch">StopWatch: <span id = "timer">0m 0s</span></span>
+        </h2>
+        <div>
+            <canvas id="card0" width="290" height="290" style="border:3px solid #000000;" class="default" onclick="flip('card0')"></canvas>
+            <canvas id="card1" width="290" height="290" style="border:3px solid #000000;" class="default" onclick="flip('card1')"></canvas>
+        </div>
+        <div>
+            <canvas id="card2" width="290" height="290" style="border:3px solid #000000;" class="default" onclick="flip('card2')"></canvas>
+            <canvas id="card3" width="290" height="290" style="border:3px solid #000000;" class="default" onclick="flip('card3')"></canvas>
+        </div>
+        <div id="bottomButtons">
+            <button class="button" onclick="reset()">Reset</button>
+            <br>
+            <a href="./recallRendezvous.html"><button class="button">Back</button></a>
+        </div>
+    </div>
+    <script src="./recallRendezvousEasy.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recall Rendezvous</title>
+    <link rel="stylesheet" href="./recallRendezvousMedium.css" />
+</head>
+<body>
+    <audio id="insuranceOfTheShin">
+        <source src="Blob-Monsters-Return.wav" type="audio/wav">
+    </audio>
+    <div align=center>
+        <h1 class="title2">Difficulty: Medium</h1>
+        <h2>
+            <span id="cardsFlippedCount">Cards Flipped: <span id = "cardsFlipped">0</span>/8</span>
+            <span id="StopWatch">StopWatch: <span id = "timer">0m 0s</span></span>
+        </h2>
+        <div>
+            <canvas id="card0" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card0')"></canvas>
+            <canvas id="card1" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card1')"></canvas>
+            <canvas id="card2" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card2')"></canvas>
+            <canvas id="card3" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card3')"></canvas>
+        </div>
+        <div>
+            <canvas id="card4" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card4')"></canvas>
+            <canvas id="card5" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card5')"></canvas>
+            <canvas id="card6" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card6')"></canvas>
+            <canvas id="card7" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card7')"></canvas>
+        </div>
+        <div>
+            <canvas id="card8" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card8')"></canvas>
+            <canvas id="card9" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card9')"></canvas>
+            <canvas id="card10" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card10')"></canvas>
+            <canvas id="card11" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card11')"></canvas>
+        </div>
+        <div>
+            <canvas id="card12" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card12')"></canvas>
+            <canvas id="card13" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card13')"></canvas>
+            <canvas id="card14" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card14')"></canvas>
+            <canvas id="card15" width="150" height="150" style="border:3px solid #000000;" class="default" class="animation" onclick="flip('card15')"></canvas>
+        </div>
+        <div id="bottomButtons">
+            <button class="button" onclick="reset()">Reset</button>
+            <br>
+            <a href="./recallRendezvous.html"><button class="button">Back</button></a>
+        </div>
+    </div>
+    <script src="./recallRendezvousMedium.js"></script>
+</body>
+</html>

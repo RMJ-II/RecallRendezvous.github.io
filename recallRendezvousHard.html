@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recall Rendezvous</title>
+    <link rel="stylesheet" href="./recallRendezvousMedium.css" />
+</head>
+<body>
+    <audio id="insuranceOfTheShin">
+        <source src="Blob-Monsters-Return.wav" type="audio/wav">
+    </audio>
+    <div align=center>
+        <h1 class="title2">Difficulty: Hard</h1>
+        <h2>
+            <span id="cardsFlippedCount">Cards Flipped: <span id = "cardsFlipped">0</span>/18</span>
+            <span id="StopWatch">StopWatch: <span id = "timer">0m 0s</span></span>
+        </h2>
+        <div>
+            <canvas id="card0" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card0')"></canvas>
+            <canvas id="card1" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card1')"></canvas>
+            <canvas id="card2" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card2')"></canvas>
+            <canvas id="card3" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card3')"></canvas>
+            <canvas id="card4" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card4')"></canvas>
+            <canvas id="card5" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card5')"></canvas>
+        </div>
+        <div>
+            <canvas id="card6" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card6')"></canvas>
+            <canvas id="card7" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card7')"></canvas>
+            <canvas id="card8" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card8')"></canvas>
+            <canvas id="card9" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card9')"></canvas>
+            <canvas id="card10" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card10')"></canvas>
+            <canvas id="card11" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card11')"></canvas>
+        </div>
+        <div>
+            <canvas id="card12" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card12')"></canvas>
+            <canvas id="card13" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card13')"></canvas>
+            <canvas id="card14" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card14')"></canvas>
+            <canvas id="card15" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card15')"></canvas>
+            <canvas id="card16" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card16')"></canvas>
+            <canvas id="card17" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card17')"></canvas>
+        </div>
+        <div>
+            <canvas id="card18" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card18')"></canvas>
+            <canvas id="card19" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card19')"></canvas>
+            <canvas id="card20" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card20')"></canvas>
+            <canvas id="card21" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card21')"></canvas>
+            <canvas id="card22" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card22')"></canvas>
+            <canvas id="card23" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card23')"></canvas>
+        </div>
+        <div>
+            <canvas id="card24" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card24')"></canvas>
+            <canvas id="card25" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card25')"></canvas>
+            <canvas id="card26" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card26')"></canvas>
+            <canvas id="card27" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card27')"></canvas>
+            <canvas id="card28" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card28')"></canvas>
+            <canvas id="card29" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card29')"></canvas>
+        </div>
+        <div>
+            <canvas id="card30" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card30')"></canvas>
+            <canvas id="card31" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card31')"></canvas>
+            <canvas id="card32" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card32')"></canvas>
+            <canvas id="card33" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card33')"></canvas>
+            <canvas id="card34" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card34')"></canvas>
+            <canvas id="card35" width="95" height="95" style="border:3px solid #000000;" class="default" onclick="flip('card35')"></canvas>
+        </div>
+        <div id="bottomButtons">
+            <button class="button" onclick="reset()">Reset</button>
+            <br>
+            <a href="./recallRendezvous.html"><button class="button">Back</button></a>
+        </div>
+    </div>
+    <script src="./recallRendezvousHard.js"></script>
+</body>
+</html>

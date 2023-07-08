@@ -1,0 +1,108 @@
+.default {
+    background-color: grey; 
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+.pink {
+    background-color: pink;
+}
+.brown {
+    background-color: brown;
+}
+.blue {
+    background-color: blue
+}
+
+.darkRed {
+    background-color: maroon;
+}
+
+.darkGreen {
+background-color:darkgreen;
+}
+
+.lime {
+    background-color: lime;
+}
+
+.darkBlue {
+    background-color: darkblue;
+}
+
+.darkOrange {
+    background-color: orangered;
+}
+
+.lightPurple {
+    background-color: plum;
+}
+
+.paleYellow {
+    background-color: lemonchiffon;
+}
+
+.coral {
+background-color:lightcoral;
+}
+
+.darkPink {
+    background-color: palevioletred;
+}
+
+.white {
+    background-color: white;
+}
+
+body {
+    background-image: url('backGroundImage.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    border-style: outset;
+    height: 50px;
+    width: 200px;
+    margin-top: 5px;
+    font-size: 100%;
+    border-width: 10px;
+    border-color: white;
+    background-color: rgb(156, 192, 204);
+    font-weight: 535;
+    font-family: 'Brush Script MT', Cursive;
+    color: black;
+}
+
+#bottomButtons {
+    margin-top: 20px
+}
+
+.title2 {
+    font-weight: 1000;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Brush Script MT', Cursive;
+    text-shadow: 2px 2px orange;    
+}
+
+#cardsFlippedCount {
+    margin-right:30px
+}
+
+#StopWatch {
+    margin-left:30px
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recalll Rendezvous</title>
+    <link rel="stylesheet" href="./recallRendezvous.css" />
+</head>
+<body>
+    <!--
+    <div align="left">
+        <p id="leaderBoard">leaderBoard</p>
+    </div>
+    -->
+    <div align=center>
+        <h1 class="title"><b>Recall Rendezvous</b></h1>
+        <div>
+            <input type="text" id="enterName" name="userName" onchange="getUserName()" placeholder="UserName...">
+        </div>
+        <div>
+            <a href="./recallRendezvousEasy.html"><button class="PlayButton">Easy</button></a>
+        </div>
+        <div>
+            <a href="./recallRendezvousMedium.html"><button class="PlayButton">Medium</button></a>
+        </div>
+        <div>
+            <a href="./recallRendezvousHard.html"><button class="PlayButton">Hard</button></a>
+        </div>
+    </div>
+    <script>
+        let userName;
+        let cookie;
+
+        window.onload = () => {
+            console.log(document.cookie);
+            document.getElementById("leaderBoard").innerHTML += "<br>" + document.cookie;
+        }
+        function getUserName() {
+            userName = document.getElementById("enterName").value;
+            setCookie(userName);
+        }
+
+        function setCookie(username) {
+            document.cookie = username + ":";
+        }
+    </script>
+</body>
+</html>
